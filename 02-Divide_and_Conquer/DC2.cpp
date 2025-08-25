@@ -48,9 +48,11 @@ int max_range_sum_DC(int A[], int l, int r){
 }
 
 int main(){
-    int n = 8;
+    //int n = 8;
     //int A[n] = {2, -4, 3, -1, 2, -4, -1, 6};
-    int A[n] = {4, -2, -8, 5, -2, 7, 1, -3};
+    //int A[n] = {4, -2, -8, 5, -2, 7, 1, -3};
+    int n = 10;
+    int A[n] = {3, -1, -2, 5, -3, 2, 4, -6, 1, 3};
 
     cout << max_range_sum(A, 0, n-1) << "\n";
     cout << max_range_sum_DC(A, 0, n-1) << "\n";
